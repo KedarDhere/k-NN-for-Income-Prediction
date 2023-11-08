@@ -1,6 +1,6 @@
 # k-NN for Income Prediction
 
-This repository contains the implementation of the k-Nearest Neighbors (k-NN) algorithm for the purpose of income prediction. The project employs the k-NN algorithm to predict whether individuals earn more or less than $50,000 per year. We have approached this problem using both a custom implementation of the k-NN algorithm and the k-NN implementation from Scikit-learn.
+This repository contains a k-Nearest Neighbors (k-NN) classifier for income prediction, developed as part of Assignment 1 for the AI534 course at Oregon State University. The classifier predicts whether individuals earn above or below $50,000 per year based on various features extracted from the dataset provided by the course professor. In this project, I have approached the problem using two different methods: a custom implementation of the k-NN algorithm and the k-NN implementation provided by Scikit-learn.
 
 ## Data Preprocessing
 
@@ -52,3 +52,7 @@ To run this project, you will need a Python environment with the necessary libra
 ```sh
 pip install -r requirements.txt
 ```
+
+## Dataset
+
+The data used for training and testing in this project has been provided by the Professor as a part of Assignment 1 for the course AI534 at Oregon State University.
